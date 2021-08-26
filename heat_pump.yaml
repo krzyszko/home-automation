@@ -1,0 +1,4 @@
+host: buderus.home
+password: !env_var HEAT_PUMP_PASSWORD
+name: 'Pompa'
+

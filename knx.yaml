@@ -1,0 +1,8 @@
+tunneling:
+  host: !env_var KNX_IP
+  port: 3671
+switch: !include knx_switch.yaml
+light: !include knx_light.yaml
+cover: !include knx_cover.yaml
+climate: !include knx_climate.yaml
+expose: !include knx_expose.yaml

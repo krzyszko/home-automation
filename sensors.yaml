@@ -1,0 +1,6 @@
+- platform: buderus
+  resources:
+    - outside_temperature
+    - room_temperature
+    - power_consumption
+    - hotwater_current_temperature

@@ -1,0 +1,80 @@
+- id: '1610272392706'
+  name: Salon_garaz_kuchnia_lazienka_kotlownia_otwarte
+  entities:
+    cover.roleta_garaz:
+      current_position: 100
+      friendly_name: Roleta Garaz
+      supported_features: 15
+      device_class: shutter
+      state: open
+    cover.roleta_kotlownia:
+      current_position: 100
+      friendly_name: Roleta Kotlownia
+      supported_features: 15
+      device_class: shutter
+      state: open
+    cover.roleta_kuchnia_poludnie:
+      current_position: 100
+      friendly_name: Roleta Kuchnia Poludnie
+      supported_features: 15
+      device_class: shutter
+      state: open
+    cover.roleta_kuchnia_zachod:
+      current_position: 100
+      friendly_name: Roleta Kuchnia Zachod
+      supported_features: 15
+      device_class: shutter
+      state: open
+    cover.roleta_salon_i:
+      current_position: 100
+      friendly_name: Roleta Salon I
+      supported_features: 15
+      device_class: shutter
+      state: open
+    cover.roleta_salon_ii:
+      current_position: 100
+      friendly_name: Roleta Salon II
+      supported_features: 15
+      device_class: shutter
+      state: open
+    cover.roleta_salon_iii:
+      current_position: 100
+      friendly_name: Roleta Salon III
+      supported_features: 15
+      device_class: shutter
+      state: open
+    cover.roleta_salon_iv:
+      current_position: 100
+      friendly_name: Roleta Salon IV
+      supported_features: 15
+      device_class: shutter
+      state: open
+- id: '1610272920996'
+  name: Rolety_garaz_kotlownia_zamkniete
+  entities:
+    cover.roleta_garaz:
+      current_position: 0
+      friendly_name: Roleta Garaz
+      supported_features: 15
+      device_class: shutter
+      state: closed
+    cover.roleta_kotlownia:
+      current_position: 0
+      friendly_name: Roleta Kotlownia
+      supported_features: 15
+      device_class: shutter
+      state: closed
+- id: '1622395208682'
+  name: Swiatlo_pole_off
+  entities:
+    light.swiatlo_garaz_brama:
+      friendly_name: Swiatlo Garaz Brama
+      supported_features: 0
+      state: 'off'
+- id: '1622395346734'
+  name: Swiatlo_pole_on
+  entities:
+    light.swiatlo_garaz_brama:
+      friendly_name: Swiatlo Garaz Brama
+      supported_features: 0
+      state: 'on'

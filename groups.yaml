@@ -1,0 +1,5 @@
+doors: 
+  name: 'Doors'
+  entities:
+    - switch.brama_garazowa
+    - sensor.heat_pump_outside_temperature

@@ -1,0 +1,54 @@
+host: satel.home
+port: 7094
+code: !env_var SATEL_CODE
+partitions:
+  01:
+    name: 'Dom'
+  02:
+    name: 'Garaz'
+zones:
+  01:
+    name: 'Sygnalizator ww'
+    type: 'safety'
+  02:
+    name: 'Sygnalizator zw'
+    type: 'safety'
+  03:
+    name: 'Skrzynka'
+    type: 'safety'
+  05:
+    name: 'Salon'
+    type: 'motion'
+  06:
+    name: 'Kuchnia'
+    type: 'motion'
+  09:
+    name: 'Pokoj gora'
+    type: 'motion'
+  10:
+    name: 'Sypialnia'
+    type: 'motion'
+  11:
+    name: 'Lazienka'
+    type: 'motion'
+  12:
+    name: 'Pokoj zachod'
+    type: 'motion'
+  13:
+    name: 'Pokoj wschod'
+    type: 'motion'
+  14:
+    name: 'Wejscie'
+    type: 'motion'
+  15:
+    name: 'Garaz'
+    type: 'motion'
+  16:
+    name: 'Kotlownia'
+    type: 'motion'
+  17:
+    name: 'Drzwi wejsciowe'
+    type: 'door'
+  18:
+    name: 'Brama Garazowa'
+    type: 'door'

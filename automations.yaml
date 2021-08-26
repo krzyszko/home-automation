@@ -1,0 +1,41 @@
+- id: '1610229045718'
+  alias: Ranek Rolety
+  description: ''
+  trigger:
+  - platform: time
+    at: 06:45
+  condition: []
+  action:
+  - scene: scene.salon_garaz_kuchnia_lazienka_kotlownia_otwarte
+  mode: single
+- id: '1610273081812'
+  alias: Rolety_garaz_kotlownia_zachód
+  description: ''
+  trigger:
+  - platform: sun
+    event: sunset
+    offset: 01:00:00
+  condition: []
+  action:
+  - scene: scene.rolety_garaz_kotlownia_zamkniete
+  mode: single
+- id: '1622395440448'
+  alias: Swiatlo_pole_on_sunset
+  description: ''
+  trigger:
+  - platform: sun
+    event: sunset
+  condition: []
+  action:
+  - scene: scene.swiatlo_pole_on
+  mode: single
+- id: '1622395492345'
+  alias: Swiatlo_pole_off
+  description: ''
+  trigger:
+  - platform: time
+    at: 01:00
+  condition: []
+  action:
+  - scene: scene.swiatlo_brama_wylaczone
+  mode: single
