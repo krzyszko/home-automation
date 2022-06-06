@@ -1,5 +1,6 @@
 doors: 
-  name: 'Doors'
+  name: 'doors'
   entities:
     - switch.brama_garazowa
-    - sensor.heat_pump_outside_temperature
+    - switch.drzwi_wejsciowe
+    - switch.brama_wjazdowa

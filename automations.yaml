@@ -8,6 +8,16 @@
   action:
   - scene: scene.salon_garaz_kuchnia_lazienka_kotlownia_otwarte
   mode: single
+- id: '1610229045719'
+  alias: Ranek Rolety Garaz
+  description: ''
+  trigger:
+  - platform: time
+    at: 06:30
+  condition: []
+  action:
+  - scene: scene.rolety_garaz_kotlownia_otwarte
+  mode: single
 - id: '1610273081812'
   alias: Rolety_garaz_kotlownia_zachód
   description: ''
@@ -39,3 +49,12 @@
   action:
   - scene: scene.swiatlo_brama_wylaczone
   mode: single
+- id: '1610273081824'
+  alias: Roleta_sypialnia_zamknieta
+  description: ''
+  trigger:
+  - platform: time
+    at: 03:30
+  condition: []
+  action:
+  - scene: scene.roleta_sypialnia_zamknieta

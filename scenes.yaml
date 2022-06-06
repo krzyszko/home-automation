@@ -78,3 +78,27 @@
       friendly_name: Swiatlo Garaz Brama
       supported_features: 0
       state: 'on'
+- id: '1610272920997'
+  name: Rolety_garaz_kotlownia_otwarte
+  entities:
+    cover.roleta_garaz:
+      current_position: 100
+      friendly_name: Roleta Garaz
+      supported_features: 15
+      device_class: shutter
+      state: open
+    cover.roleta_kotlownia:
+      current_position: 100
+      friendly_name: Roleta Kotlownia
+      supported_features: 15
+      device_class: shutter
+      state: open
+- id: '1610272920998'
+  name: Roleta_sypialnia_zamknieta
+  entities:
+    cover.roleta_sypialnia:
+      current_position: 0
+      friendly_name: Roleta Sypialnia
+      supported_features: 15
+      device_class: shutter
+      state: closed
