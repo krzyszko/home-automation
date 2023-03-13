@@ -54,7 +54,8 @@
   description: ''
   trigger:
   - platform: time
-    at: 03:30
+    at: 04:30
   condition: []
   action:
   - scene: scene.roleta_sypialnia_zamknieta
+  mode: single
