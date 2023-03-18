@@ -1,5 +1,5 @@
 blueprint:
-  name: Motion-activated Light
+  name: Motion-activated Light when sun below horizon
   description: Turn on a light when motion is detected.
   domain: automation
   source_url: https://raw.githubusercontent.com/tkrisko/home-automation/master/my_blueprints/motion.yaml
