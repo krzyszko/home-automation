@@ -2,7 +2,7 @@ blueprint:
   name: Motion-activated Light with sun condition
   description: Turn on a light when motion is detected.
   domain: automation
-  source_url: 
+  source_url: https://raw.githubusercontent.com/tkrisko/home-automation/master/my_blueprints/motion.yaml
   input:
     motion_entity:
       name: Motion Sensor
