@@ -25,12 +25,10 @@ blueprint:
           min: 0
           max: 3600
           unit_of_measurement: seconds
-
 # If motion is detected within the delay,
 # we restart the script.
 mode: restart
 max_exceeded: silent
-
 trigger:
   - platform: state
     entity_id: !input motion_entity
@@ -40,7 +38,6 @@ trigger:
     entity_id: !input light_target
     from: "off"
     to: "on"
-
 action:
   - service: light.turn_on
     target:
